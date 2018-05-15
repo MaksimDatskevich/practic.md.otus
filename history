@@ -1,0 +1,113 @@
+    1  uname -r
+    2  mc
+    3  yum update
+    4  ifconfig
+    5  yum install ifconfig
+    6  yum search config
+    7  yum search ifco
+    8  yum install net-tools.x86_64
+    9  ifconfig
+   10  ping 8.8.8.8
+   11  uname -r
+   12  yum install -y mc
+   13  mc
+   14  lspci
+   15  yum search lspci
+   16  yum search pci
+   17  lspci
+   18  uname -r
+   19  fdisk -l
+   20  yum install wget
+   21  wget https://cdn.kernel.org/pub/linux/kernel/v3.x/linux-3.16.56.tar.xz
+   22  pwd
+   23  ls -all
+   24  cp linux-3.16.56.tar.xz /usr/src/linux-3.16.56.tar.xz
+   25  cd /usr/src
+   26  ls
+   27  tar -kpJf linux-3.16.56.tar.xz
+   28  tar -xpJf linux-3.16.56.tar.xz
+   29  ls
+   30  cd linux-3.16.56
+   31  ls
+   32  cd li
+   33  cd lib
+   34  ls
+   35  ls | grap "mod"
+   36  ls | grap 'mod'
+   37  ls -all 
+   38  mc
+   39  ls | grep 'mod'
+   40  ls
+   41  cd linux-3.16.56
+   42  cd /boot
+   43  ls
+   44  cp config-3.10.0-8* /usr/src/linux-3.16.56/.config
+   45  cd /usr/src/linux-3.16.56
+   46  ls
+   47  ls -all
+   48  ls -all .con*
+   49  make oldconfig
+   50  yum install -y gcc
+   51  make oldconfig
+   52  mc
+   53  cd /boot
+   54  lls -all
+   55  ls -all
+   56  ls -all conf*
+   57  cd /usr/src/linux-3.16.56
+   58  ls lib
+   59  ls -all li*
+   60  cd lib
+   61  ls -all mod*
+   62  cd modules.builting
+   63  cd modules.builtin
+   64  cd ..
+   65  make -j2 install
+   66  make install
+   67  make
+   68  yum install -y bc
+   69  make
+   70  yum install -y lzma
+   71  make -j2
+   72  mc
+   73  make install
+   74  make modules
+   75  nc
+   76  mc
+   77  exit
+   78  yum install upgrade
+   79  cd /usr/src/
+   80  ls -l lin*
+   81  ls -all
+   82  cd linux-3.16.56
+   83  yum upgrade
+   84  make -j2
+   85  make install && make modules_install
+   86  make modules_install
+   87  make install
+   88  uname -r > old.kernel
+   89  pwd
+   90  ls old*
+   91  cat old.kernel
+   92  mc
+   93  history
+   94  cd /usr/src/
+   95  history > history
+   96  exit
+   97  reboot
+   98  cat /usr/src/kernel-3.16.56/old.kernel
+   99  cd /usr/src/
+  100  ls
+  101  cat /usr/src/linux-3.16.56/old.kernel
+  102  uname -r > /usr/src/linux-3.16.56/new.kernel
+  103  cat /usr/src/linux-3.16.56/new.kernel
+  104  uname -r
+  105  uname
+  106  uname -a
+  107  mc
+  108  grub2-mkconfig
+  109  grub2-set-default 0
+  110  reboot
+  111  uname -r
+  112  uname -r > /usr/src/linux-3.16.56/new.kernel
+  113  history > /usr/src/linux-3.16.56/history
